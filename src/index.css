@@ -1,13 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: rgb(32, 32, 32);
+}
+.day {
+  border: 1px solid rgb(58, 58, 58);
+  width: 65px;
+  display: inline-block;
+  text-align: left;
+}
+.wdit {
+  border: 2px dotted rgb(58, 58, 58);
+  width: 65px;
+  display: inline-block;
+}
+.dayContent {
+  margin-bottom: 30px;
+  margin: none;
+}
+.invis {
+  opacity: 0%;
+  padding: 5px;
+}
+.scheduledAppointment {
+  background-color: rgb(222, 220, 220);
+  opacity: 80%;
+  border-radius: 10px;
+  text-align: center;
+}
+.tile {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: azure;
+}
+:hover.tile {
+  background-color: rgb(196, 196, 196);
+}
+.react-calendar__navigation__arrow {
+  border-color: azure;
+  margin: 0 1.5rem;
+  background-color: white;
+  padding: 5px 35px;
+  border-radius: 10px;
+}
+:hover.react-calendar__navigation__arrow {
+  background-color: rgb(196, 196, 196);
+}
+.react-calendar__navigation {
+  display: block;
+  text-align: center;
+}
+.nav-color {
+  background-color: #a4ffbb;
+}
+.myDesk {
+  opacity: 80%;
+}
+.c61B570 {
+ background-color: #a4ffbb!important;
+}
+.slide {
+  height: 300px;
+}
+.phaseCard {
+  background-color: #3d8c62!important;
+}
+abbr {
+  margin-bottom: 50px;
+}
+.ftxt {
+  background-color: #144E34;
+  padding: 25px;
+  margin: 0;
+  color: #a4ffbb;
+}
+.fillOut {
+  margin-top: 100px;
+}
+.formButton {
+  margin: 10px;
+}
+@media (min-width: 992px) {
+  .day {
+    width: 140px;
+  }
+  .wdit {
+    width: 140px;
+  }
+  .invis {
+    margin: 20px;
+  }
+  .slide {
+    height: 500px;
+  }
 }
